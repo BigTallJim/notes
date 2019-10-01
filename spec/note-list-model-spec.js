@@ -6,10 +6,7 @@ function testNoteList(){
         noteList.add(note1);
         noteList.add(note2);
 
-        // console.log(noteList.notes)
-        // console.log([note1,note2])
         assert.isArrayEqual(noteList.notes , [note1,note2]) ;
-        // assert.isTrue(noteList[2].text === "My favourite language is JavaScript");
 
     }
     catch(err) {
